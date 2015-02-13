@@ -1,0 +1,30 @@
+package com.duskorion.testmod.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler 
+{
+	public static void init(File configFile)
+	{
+		//create config object from the given config file
+		Configuration configuration = new Configuration(configFile);
+		
+		try
+		{
+			//Load the config file
+			configuration.load();
+			// Read in properties from config
+		}
+		catch (exception e)
+		{
+			//Log Exception
+		}
+		finally
+		{
+			//save config
+			configuration.save();
+		}
+	}
+}

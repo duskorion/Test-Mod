@@ -1,0 +1,10 @@
+package com.duskorion.testmod.block;
+
+public class BlockLorem extends BlockTestMod
+{
+	 public void BlockLorem()
+	 {
+		 super();
+		 this.setBlockName("lorem");
+	  }
+}

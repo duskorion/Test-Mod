@@ -1,0 +1,9 @@
+package com.duskorion.testmod.item;
+
+public class ItemTest extends ItemTestMod
+{
+	public ItemTest()
+	{
+		super();
+	}
+}

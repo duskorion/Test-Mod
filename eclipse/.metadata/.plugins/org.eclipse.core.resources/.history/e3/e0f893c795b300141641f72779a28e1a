@@ -1,0 +1,10 @@
+# Keys
+
+# Items
+item.testmod:berry.name=Lorem Ipsum Berry
+
+# Blocks
+tile.testmod:lorem.name=Lorem Block
+
+# Creative Tabs
+itemGroup.testmod=Test Mod

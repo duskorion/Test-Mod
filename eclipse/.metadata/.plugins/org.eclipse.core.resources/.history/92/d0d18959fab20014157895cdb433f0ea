@@ -1,0 +1,15 @@
+package com.duskorion.testmod.init;
+
+import com.duskorion.testmod.item.ItemTestMod;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModItems
+{
+	public static final ItemTestMod berry = new ItemBerry();
+	
+	public static void init()
+	{
+		GameRegistry.registerItem(berry, "berry");
+	}
+}

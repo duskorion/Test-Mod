@@ -1,0 +1,14 @@
+package com.duskorion.testmod;
+
+import cpw.mods.fml.common.*;
+
+@Mod(modid="TestMod", name="Test Mod",version="1.7.10-1.0")
+
+public class testmod 
+{
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event)
+	{
+	}
+	}
+}

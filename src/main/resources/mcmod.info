@@ -1,0 +1,21 @@
+[
+{
+  "modid": "TestMod",
+  "name": "Test Mod",
+  "description": "Created following Pahimar's Let's Mod Reboot series",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "duskorion"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

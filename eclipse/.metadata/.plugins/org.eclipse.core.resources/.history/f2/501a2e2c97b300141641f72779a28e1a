@@ -1,0 +1,6 @@
+package com.duskorion.testmod.reference;
+
+public enum Key 
+{
+	UNKOWN, CHARGE, RELEASE;
+}

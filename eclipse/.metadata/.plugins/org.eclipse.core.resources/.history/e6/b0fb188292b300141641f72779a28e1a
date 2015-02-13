@@ -1,0 +1,12 @@
+package com.duskorion.testmod.init;
+
+import net.minecraft.init.Items;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModRecipies 
+{
+	public static void init()
+	{
+		GameRegistry.addRecipe(new ItemStack(ModItems.berry), " s ","sss"," s ", 's', new ItemStack(Items.stick));
+	}
+}

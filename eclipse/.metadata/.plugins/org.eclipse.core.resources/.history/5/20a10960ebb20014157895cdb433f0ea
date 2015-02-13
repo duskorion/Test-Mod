@@ -1,0 +1,38 @@
+package com.duskorion.testmod.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler 
+{
+	public static Configuration configuration;
+	
+	public static void init(File configFile)
+	{
+		//create config object from the given config file
+		configuration = new Configuration(configFile);
+		boolean configValue = false;
+		try
+		{
+			//Load the config file
+			configuration.load();
+			// Read in properties from config
+			configValue = configuration.get("Test Mod Category", "configValue", true, "This is an example config value").getBoolean(true);
+		}
+		catch (Exception e)
+		{
+			//Log Exception
+			
+		}
+		finally
+		{
+			//save config
+			if(configuration.hasChanged())
+			{
+				configuration.save();
+			}
+		}
+				
+	}
+}

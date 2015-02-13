@@ -1,0 +1,18 @@
+package com.duskorion.testmod.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockTestMod extends Block
+{
+
+	public BlockTestMod(Material material)
+	{
+		super(material);
+	}
+
+	public BlockTestMod()
+	{
+		this(Material.rock);
+	}
+}

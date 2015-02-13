@@ -1,0 +1,6 @@
+package com.duskorion.proxy;
+
+public interface IProxy
+{
+
+}

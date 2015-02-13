@@ -1,0 +1,5 @@
+package com.duskorion.testmod.block;
+
+public class BlockLorem {
+
+}

@@ -1,0 +1,5 @@
+package com.duskorion.testmod.client.settings;
+
+public class Keybindings {
+
+}

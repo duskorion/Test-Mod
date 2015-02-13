@@ -1,0 +1,11 @@
+package com.duskorion.testmod.item;
+
+public class ItemBerry extends ItemTestMod
+{
+	public ItemBerry()
+	{
+		super();
+		this.setUnlocalizedName("berry");
+	}
+	
+}

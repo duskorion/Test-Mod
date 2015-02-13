@@ -1,0 +1,5 @@
+package com.duskorion.testmod;
+
+public class GuiFactory {
+
+}

@@ -1,0 +1,9 @@
+package com.duskorion.testmod.item;
+
+public class ItemMapleLeaf extends ItemTestMod
+{
+	public ItemMapleLeaf()
+	{
+		super();
+	}
+}

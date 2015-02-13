@@ -1,0 +1,6 @@
+package com.duskorion.testmod.proxy;
+
+public interface IProxy
+{
+
+}
