@@ -1,8 +1,0 @@
-package com.duskorion.testmod.block;
-
-import net.minecraft.tileentity.TileEntity;
-
-public class TileEntityLoremIpsum extends TileEntity
-{
-	
-}

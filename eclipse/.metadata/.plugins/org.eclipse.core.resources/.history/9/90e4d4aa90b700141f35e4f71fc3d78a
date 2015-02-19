@@ -1,6 +1,0 @@
-package com.duskorion.testmod.client.gui;
-
-public class GuiLoremIpsum extends GuiContainer
-{
-
-}
