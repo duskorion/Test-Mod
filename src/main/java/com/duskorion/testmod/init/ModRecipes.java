@@ -13,5 +13,7 @@ public class ModRecipes
 
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.berry), " s ","sss"," s ", 's', "stickWood"));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.lorem), "stickWood", new ItemStack(ModItems.berry)));
+		
+		GameRegistry.addSmelting(new ItemStack(ModItems.berry), new ItemStack(ModBlocks.ipsum), 0.1f);
 	}
 }

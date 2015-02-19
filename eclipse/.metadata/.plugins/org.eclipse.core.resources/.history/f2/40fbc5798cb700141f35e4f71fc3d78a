@@ -1,0 +1,21 @@
+package com.duskorion.testmod.init;
+
+import net.minecraft.tileentity.TileEntity;
+
+import com.duskorion.testmod.block.BlockLoremIpsum;
+import com.duskorion.testmod.block.BlockTestMod;
+import com.duskorion.testmod.reference.GuiIDs;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModTiles 
+{
+	
+	public static final TileEntity loremipsum = new BlockLoremIpsum();
+	
+	public static void init()
+	{
+		GameRegistry.registerTileEntity((TileEntity)loremipsum, GuiIDs.guiLoremIpsum);
+	}
+	
+}

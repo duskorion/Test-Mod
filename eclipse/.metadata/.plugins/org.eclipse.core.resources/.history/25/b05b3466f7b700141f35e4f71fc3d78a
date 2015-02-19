@@ -1,0 +1,17 @@
+package com.duskorion.testmod.tileEntity;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEntityLoremIpsum extends TileEntity 
+{
+
+	public String getInventoryName() {
+		return null;
+	}
+
+	public boolean hasCustomInventoryName() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

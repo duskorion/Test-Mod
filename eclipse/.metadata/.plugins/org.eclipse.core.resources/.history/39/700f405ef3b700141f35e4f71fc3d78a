@@ -1,0 +1,14 @@
+package com.duskorion.testmod.client.gui;
+
+import net.minecraft.entity.player.InventoryPlayer;
+
+import com.duskorion.testmod.tileEntity.TileEntityLoremIpsum;
+
+public class ContainerLoremIpsum {
+
+	public ContainerLoremIpsum(InventoryPlayer inventory,
+			TileEntityLoremIpsum entity) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

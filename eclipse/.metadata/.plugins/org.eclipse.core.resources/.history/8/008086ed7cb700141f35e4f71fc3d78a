@@ -1,0 +1,29 @@
+package com.duskorion.testmod.block;
+
+import com.duskorion.testmod.creativetab.CreativeTabTestMod;
+
+import net.minecraft.block.BlockContainer;
+import net.minecraft.block.material.Material;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
+
+public class BlockContainerTestMod extends BlockContainer
+{
+
+	public BlockContainerTestMod(Material material)
+	{
+		super(material);
+		this.setCreativeTab(CreativeTabTestMod.TESTMOD_TAB);
+
+	}
+
+	public BlockContainerTestMod()
+	{
+		this(Material.rock);
+	}
+	@Override
+	public TileEntity createNewTileEntity(World world, int meta) {
+		return new TileEntityTestMod();
+	}
+
+}

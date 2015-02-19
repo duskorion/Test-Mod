@@ -8,6 +8,9 @@ item.testmod:berry.name=Lorem Ipsum Berry
 
 # Blocks
 tile.testmod:lorem.name=Lorem Block
+tile.testmod:ipsum.name=Ipsum Block
+tile.testmod:loremipsum.name=Lorem Ipsum Block
+
 
 # Creative Tabs
 itemGroup.testmod=Test Mod

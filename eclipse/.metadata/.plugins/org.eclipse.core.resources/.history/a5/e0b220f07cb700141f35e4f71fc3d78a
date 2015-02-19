@@ -1,0 +1,16 @@
+package com.duskorion.testmod.block;
+
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
+
+public class BlockLoremIpsum extends BlockTestMod
+{
+	 public BlockLoremIpsum()
+	 {
+		 super();
+		 this.setBlockName("loremipsum");
+		 this.setBlockTextureName("loremipsum");
+
+	  }
+	 
+}

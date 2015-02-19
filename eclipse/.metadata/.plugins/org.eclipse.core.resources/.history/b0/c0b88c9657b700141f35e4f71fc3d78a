@@ -1,0 +1,5 @@
+package com.duskorion.testmod.init;
+
+public class ModTileEntity {
+
+}

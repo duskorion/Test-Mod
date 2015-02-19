@@ -1,0 +1,6 @@
+package com.duskorion.testmod.block;
+
+public class TileTestMod extends TileEntity
+{
+
+}

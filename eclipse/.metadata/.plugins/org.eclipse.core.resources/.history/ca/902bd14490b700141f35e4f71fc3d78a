@@ -1,0 +1,6 @@
+package com.duskorion.testmod.client.handler;
+
+public class GuiHandler 
+{
+
+}

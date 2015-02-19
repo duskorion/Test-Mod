@@ -1,0 +1,12 @@
+package com.duskorion.testmod.block;
+
+public class BlockLoremIpsum extends BlockTestMod
+{
+	 public BlockLoremIpsum()
+	 {
+		 super();
+		 this.setBlockName("loremipsum");
+		 this.setBlockTextureName("loremipsum");
+
+	  }
+}

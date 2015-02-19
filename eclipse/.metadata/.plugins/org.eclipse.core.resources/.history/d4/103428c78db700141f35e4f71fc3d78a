@@ -1,0 +1,7 @@
+package com.duskorion.testmod.reference;
+
+public class TileEntityIDs
+{
+	public static final int tELoremIpsum = 0;
+
+}
